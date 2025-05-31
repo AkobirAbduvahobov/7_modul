@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserContacts.Web", "src\UserContacts.Web\UserContacts.Web.csproj", "{33E22160-513E-482B-B24C-574E4C3711EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserContacts.Application", "src\UserContacts.Application\UserContacts.Application.csproj", "{E41020D2-4755-4CCD-8118-D4469BEA9652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserContacts.Infrastructure", "src\UserContacts.Infrastructure\UserContacts.Infrastructure.csproj", "{4F335CCF-882B-4045-B4E8-B17447B7E3F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserContacts.Domain", "src\UserContacts.Domain\UserContacts.Domain.csproj", "{39F13E13-B7BA-4963-81B0-0945CBF240D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserContacts.Core", "src\UserContacts.Core\UserContacts.Core.csproj", "{FF40B7A5-F983-4C1C-8F9B-6D0DD363BCD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserContacts.Unit", "Tests\UserContacts.Unit\UserContacts.Unit.csproj", "{4C3263F3-4AF1-4971-8E7D-0878FFAF2035}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33E22160-513E-482B-B24C-574E4C3711EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E22160-513E-482B-B24C-574E4C3711EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E22160-513E-482B-B24C-574E4C3711EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E22160-513E-482B-B24C-574E4C3711EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41020D2-4755-4CCD-8118-D4469BEA9652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41020D2-4755-4CCD-8118-D4469BEA9652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41020D2-4755-4CCD-8118-D4469BEA9652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41020D2-4755-4CCD-8118-D4469BEA9652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F335CCF-882B-4045-B4E8-B17447B7E3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F335CCF-882B-4045-B4E8-B17447B7E3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F335CCF-882B-4045-B4E8-B17447B7E3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F335CCF-882B-4045-B4E8-B17447B7E3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F13E13-B7BA-4963-81B0-0945CBF240D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F13E13-B7BA-4963-81B0-0945CBF240D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F13E13-B7BA-4963-81B0-0945CBF240D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F13E13-B7BA-4963-81B0-0945CBF240D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF40B7A5-F983-4C1C-8F9B-6D0DD363BCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF40B7A5-F983-4C1C-8F9B-6D0DD363BCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF40B7A5-F983-4C1C-8F9B-6D0DD363BCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF40B7A5-F983-4C1C-8F9B-6D0DD363BCD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3263F3-4AF1-4971-8E7D-0878FFAF2035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3263F3-4AF1-4971-8E7D-0878FFAF2035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3263F3-4AF1-4971-8E7D-0878FFAF2035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3263F3-4AF1-4971-8E7D-0878FFAF2035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C109FAC-A47D-4ECC-BE23-509DB4C50F7F}
+	EndGlobalSection
+EndGlobal
