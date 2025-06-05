@@ -9,7 +9,7 @@ public static class ContactEndpoints
     public static void MapContactEndpoints(this WebApplication app)
     {
         var contactGroup = app.MapGroup("/api/contact")
-            .RequireAuthorization()       // Require [Authorize] globally for this group
+            //.RequireAuthorization()       // Require [Authorize] globally for this group
             .WithTags("Contact Management"); // Swagger section name
 
 

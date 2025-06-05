@@ -42,7 +42,7 @@ public static class ContactEnpoints
             .Produces(422);
 
 
-        contactGroup.MapGet("/get{contactId}",
+        contactGroup.MapGet("/get/{contactId}",
         async (long contactId, IContactService contactService) =>
         {
             return await contactService.GetByIdAsync(contactId);

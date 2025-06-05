@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactSystem.Server", "ContactSystem.Server\ContactSystem.Server.csproj", "{CF408796-8854-443A-BA7B-520DEBBB556C}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactSystem.Infrastructure", "ContactSystem.Infrastructure\ContactSystem.Infrastructure.csproj", "{1088267D-458F-4FBA-81B6-7FB521B3D867}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactSystem.Domain", "ContactSystem.Domain\ContactSystem.Domain.csproj", "{385086C0-99A4-4D48-BF31-69CCDD5E5EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactSystem.IntegrationTests", "ContactSystem.IntegrationTests\ContactSystem.IntegrationTests.csproj", "{F212E240-DAED-462D-8CF0-28310A3B6191}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{385086C0-99A4-4D48-BF31-69CCDD5E5EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{385086C0-99A4-4D48-BF31-69CCDD5E5EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{385086C0-99A4-4D48-BF31-69CCDD5E5EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F212E240-DAED-462D-8CF0-28310A3B6191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F212E240-DAED-462D-8CF0-28310A3B6191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F212E240-DAED-462D-8CF0-28310A3B6191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F212E240-DAED-462D-8CF0-28310A3B6191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
