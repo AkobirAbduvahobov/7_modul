@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Connected Example</title>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="g10.css">
+</head>
+
+<body>
+
+    <div>
+        <form>
+            <div class="my-dive">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" placeholder="Enter user name" required>
+            </div>
+            
+            <div class="my-dive">
+                <label for="password">Username:</label>
+                <input type="password" name="password" id="password" placeholder="enter password" required>
+            </div>
+            
+            <div class="my-dive">
+                <button onclick="getValues()" type="submit">Submit</button>
+            </div>
+            
+            
+        </form>
+    </div>
+
+
+    <br>
+    <hr>
+    <br>
+
+    <div>
+        <input type="text" name="username" id="username1" placeholder="Enter user name">
+    </div>
+    <div>
+        <input required type="password" name="password" id="password1" placeholder="enter password">
+    </div>
+
+    <div>
+        <button onclick="getValues()">Click Me</button>
+    </div>
+
+    <!-- Linking JavaScript -->
+    <script src="g10.js"></script>
+</body>
+
+</html>
