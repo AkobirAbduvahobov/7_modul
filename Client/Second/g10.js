@@ -1,15 +1,17 @@
-function getValues() {
-    debugger;
-    // Get the values from inputs
-    let name = document.getElementById("username").value;
-    let pass = document.getElementById("password").value;
+let arr = []; 
+let names = ["Alice", "Bob"];
+let numbers = new Array(10); 
 
-    // Show in console or use in code
-    console.log("Name:", name);
-    console.log("Password:", pass);
-  }
 
-  // script.js
-function changeMessage() {
-  document.getElementById("message").textContent = "You clicked the button, bro! 😎";
+arr.push(45);
+arr.push(99);
+arr.push(45);
+arr.push(77);
+arr.push(59);
+arr.push(1);
+arr.push(4);
+
+for(let item of arr){
+  console.log(item);
 }
+
